@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Khanh Nguyen</title>
+        <author>@ Khanh Nguyen 2022</author>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/index.html">About Me</a></li>
+                <li><a href="/work.html">Work</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h5 align="center">Check out my <a href="https://www.linkedin.com/in/khanhqn1/" target="_blank">linkedin</a>.</h5>
+    </body>
+    <form action="/action_page.html">
+        <br>
+        <p id="name"></p>
+        <script>
+            document.getElementById("name").innerHTML = "Please Fill out This Form!";
+        </script> 
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form> 
+</html>
